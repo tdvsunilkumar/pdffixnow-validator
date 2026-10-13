@@ -1,0 +1,98 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ------------------< com.pdffixnow:pdffixnow-desktop >-------------------
+[INFO] Building PDFFixNow 1.0.0
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] Loaded 24025 auto-discovered prefixes for remote repository central (prefixes-central.txt)
+[INFO] Loaded 74 auto-discovered prefixes for remote repository apache.snapshots (prefixes-apache.snapshots.txt)
+[WARNING] Could not transfer metadata /.meta/prefixes.txt from/to jvnet-nexus-releases (https://maven.java.net/content/repositories/releases/): (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+[INFO] 
+[INFO] --- clean:3.5.0:clean (default-clean) @ pdffixnow-desktop ---
+[INFO] Deleting D:\Work Projects\pdfeditor\desktop\pdffixnow-desktop\target
+[INFO] 
+[INFO] --- resources:3.5.0:resources (default-resources) @ pdffixnow-desktop ---
+[INFO] Copying 2 resources from src\main\resources to target\classes
+[INFO] 
+[INFO] --- compiler:3.13.0:compile (default-compile) @ pdffixnow-desktop ---
+[INFO] Recompiling the module because of changed source code.
+[INFO] Compiling 9 source files with javac [debug release 21] to target\classes
+[INFO] /D:/Work Projects/pdfeditor/desktop/pdffixnow-desktop/src/main/java/com/pdffixnow/desktop/App.java: D:\Work Projects\pdfeditor\desktop\pdffixnow-desktop\src\main\java\com\pdffixnow\desktop\App.java uses unchecked or unsafe operations.
+[INFO] /D:/Work Projects/pdfeditor/desktop/pdffixnow-desktop/src/main/java/com/pdffixnow/desktop/App.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- resources:3.5.0:testResources (default-testResources) @ pdffixnow-desktop ---
+[INFO] skip non existing resourceDirectory D:\Work Projects\pdfeditor\desktop\pdffixnow-desktop\src\test\resources
+[INFO] 
+[INFO] --- compiler:3.13.0:testCompile (default-testCompile) @ pdffixnow-desktop ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- surefire:3.6.0:test (default-test) @ pdffixnow-desktop ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] --- jar:3.5.1:jar (default-jar) @ pdffixnow-desktop ---
+[INFO] Building jar: D:\Work Projects\pdfeditor\desktop\pdffixnow-desktop\target\pdffixnow-desktop-1.0.0.jar
+[INFO] 
+[INFO] --- shade:3.6.0:shade (default) @ pdffixnow-desktop ---
+[INFO] Loaded 50 auto-discovered prefixes for remote repository ow2-snapshot (prefixes-ow2-snapshot.txt)
+[INFO] Including org.openjfx:javafx-controls:jar:21.0.5 in the shaded jar.
+[INFO] Including org.openjfx:javafx-controls:jar:win:21.0.5 in the shaded jar.
+[INFO] Including org.openjfx:javafx-graphics:jar:21.0.5 in the shaded jar.
+[INFO] Including org.openjfx:javafx-graphics:jar:win:21.0.5 in the shaded jar.
+[INFO] Including org.openjfx:javafx-base:jar:21.0.5 in the shaded jar.
+[INFO] Including org.openjfx:javafx-base:jar:win:21.0.5 in the shaded jar.
+[INFO] Including org.verapdf:validation-model:jar:1.28.2 in the shaded jar.
+[INFO] Including org.verapdf:parser:jar:1.28.2 in the shaded jar.
+[INFO] Including org.verapdf:pdf-model:jar:1.28.2 in the shaded jar.
+[INFO] Including org.verapdf:core:jar:1.28.2 in the shaded jar.
+[INFO] Including org.verapdf:verapdf-xmp-core:jar:1.28.2 in the shaded jar.
+[INFO] Including org.mozilla:rhino:jar:1.7.13 in the shaded jar.
+[INFO] Including javax.xml.bind:jaxb-api:jar:2.4.0-b180830.0359 in the shaded jar.
+[INFO] Including javax.activation:javax.activation-api:jar:1.2.0 in the shaded jar.
+[INFO] Including com.sun.xml.bind:jaxb-impl:jar:2.3.2 in the shaded jar.
+[INFO] Including com.sun.xml.bind:jaxb-core:jar:2.3.0.1 in the shaded jar.
+[INFO] Including com.fasterxml.jackson.core:jackson-databind:jar:2.15.0 in the shaded jar.
+[INFO] Including com.fasterxml.jackson.core:jackson-annotations:jar:2.15.0 in the shaded jar.
+[INFO] Including com.fasterxml.jackson.core:jackson-core:jar:2.15.0 in the shaded jar.
+[INFO] Including net.java.dev.stax-utils:stax-utils:jar:20070216 in the shaded jar.
+[INFO] Including org.verapdf:feature-reporting:jar:1.28.2 in the shaded jar.
+[INFO] Including org.verapdf:metadata-fixer:jar:1.28.2 in the shaded jar.
+[WARNING] javax.activation-api-1.2.0.jar, jaxb-api-2.4.0-b180830.0359.jar define 1 overlapping resource: 
+[WARNING]   - META-INF/LICENSE.txt
+[WARNING] javafx-controls-21.0.5-win.jar, javafx-graphics-21.0.5-win.jar define 4 overlapping resources: 
+[WARNING]   - META-INF/substrate/config/reflectionconfig-aarch64-android.json
+[WARNING]   - META-INF/substrate/config/reflectionconfig-arm64-ios.json
+[WARNING]   - META-INF/substrate/config/reflectionconfig-x86_64-ios.json
+[WARNING]   - META-INF/substrate/config/resourcebundles
+[WARNING] core-1.28.2.jar, feature-reporting-1.28.2.jar, jackson-annotations-2.15.0.jar, jackson-core-2.15.0.jar, jackson-databind-2.15.0.jar, javafx-base-21.0.5-win.jar, javafx-base-21.0.5.jar, javafx-controls-21.0.5-win.jar, javafx-controls-21.0.5.jar, javafx-graphics-21.0.5-win.jar, javafx-graphics-21.0.5.jar, javax.activation-api-1.2.0.jar, jaxb-api-2.4.0-b180830.0359.jar, jaxb-core-2.3.0.1.jar, jaxb-impl-2.3.2.jar, metadata-fixer-1.28.2.jar, parser-1.28.2.jar, pdf-model-1.28.2.jar, pdffixnow-desktop-1.0.0.jar, rhino-1.7.13.jar, stax-utils-20070216.jar, validation-model-1.28.2.jar, verapdf-xmp-core-1.28.2.jar define 1 overlapping resource: 
+[WARNING]   - META-INF/MANIFEST.MF
+[WARNING] javafx-base-21.0.5-win.jar, javafx-controls-21.0.5-win.jar, javafx-graphics-21.0.5-win.jar define 1 overlapping resource: 
+[WARNING]   - META-INF/substrate/config/reflectionconfig.json
+[WARNING] jackson-annotations-2.15.0.jar, jackson-core-2.15.0.jar, jackson-databind-2.15.0.jar define 2 overlapping resources: 
+[WARNING]   - META-INF/LICENSE
+[WARNING]   - META-INF/NOTICE
+[WARNING] jaxb-core-2.3.0.1.jar, jaxb-impl-2.3.2.jar define 135 overlapping classes and resources: 
+[WARNING]   - com.sun.xml.bind.Locatable
+[WARNING]   - com.sun.xml.bind.Messages
+[WARNING]   - com.sun.xml.bind.Util
+[WARNING]   - com.sun.xml.bind.WhiteSpaceProcessor
+[WARNING]   - com.sun.xml.bind.annotation.OverrideAnnotationOf
+[WARNING]   - com.sun.xml.bind.annotation.XmlIsSet
+[WARNING]   - com.sun.xml.bind.annotation.XmlLocation
+[WARNING]   - com.sun.xml.bind.api.ErrorListener
+[WARNING]   - com.sun.xml.bind.api.impl.NameConverter
+[WARNING]   - com.sun.xml.bind.api.impl.NameConverter$1
+[WARNING]   - 125 more...
+[WARNING] maven-shade-plugin has detected that some files are
+[WARNING] present in two or more JARs. When this happens, only one
+[WARNING] single version of the file is copied to the uber jar.
+[WARNING] Usually this is not harmful and you can skip these warnings,
+[WARNING] otherwise try to manually exclude artifacts based on
+[WARNING] mvn dependency:tree -Ddetail=true and the above output.
+[WARNING] See https://maven.apache.org/plugins/maven-shade-plugin/
+[INFO] Replacing D:\Work Projects\pdfeditor\desktop\pdffixnow-desktop\target\pdffixnow.jar with D:\Work Projects\pdfeditor\desktop\pdffixnow-desktop\target\pdffixnow-desktop-1.0.0-shaded.jar
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  6.955 s
+[INFO] Finished at: 2026-10-08T12:37:28+05:30
+[INFO] ------------------------------------------------------------------------

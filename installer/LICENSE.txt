@@ -1,0 +1,14 @@
+PDFFixNow - End User License Agreement (DRAFT - replace with your own terms)
+
+PDFFixNow is provided "as is", without warranty of any kind. Validation results
+are produced by the veraPDF library and are provided for information only.
+
+Third-party software
+--------------------
+This product includes veraPDF (https://verapdf.org), Copyright the veraPDF
+Consortium / Open Preservation Foundation, used under the Mozilla Public License
+2.0 (https://www.mozilla.org/MPL/2.0/). Source code for veraPDF is available at
+https://github.com/veraPDF.
+
+This product includes OpenJFX (JavaFX) under the GPLv2 + Classpath Exception and
+the OpenJDK runtime under GPLv2 + Classpath Exception.
